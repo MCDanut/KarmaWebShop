@@ -20,56 +20,16 @@ class Header extends Component{
                                 <ul className="nav navbar-nav menu_nav ml-auto">
                                     <li className="nav-item active"><a className="nav-link" href="index.html">Home</a>
                                     </li>
-                                    <li className="nav-item submenu dropdown">
-                                        <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown"
-                                           role="button" aria-haspopup="true"
-                                           aria-expanded="false">Shop</a>
-                                        <ul className="dropdown-menu">
-                                            <li className="nav-item"><a className="nav-link" href="category.html">Shop
-                                                Category</a></li>
-                                            <li className="nav-item"><a className="nav-link" href="single-product.html">Product
-                                                Details</a></li>
-                                            <li className="nav-item"><a className="nav-link" href="checkout.html">Product
-                                                Checkout</a></li>
-                                            <li className="nav-item"><a className="nav-link" href="cart.html">Shopping
-                                                Cart</a></li>
-                                            <li className="nav-item"><a className="nav-link"
-                                                                        href="confirmation.html">Confirmation</a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="nav-item submenu dropdown">
-                                        <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown"
-                                           role="button" aria-haspopup="true"
-                                           aria-expanded="false">Blog</a>
-                                        <ul className="dropdown-menu">
-                                            <li className="nav-item"><a className="nav-link" href="blog.html">Blog</a>
-                                            </li>
-                                            <li className="nav-item"><a className="nav-link" href="single-blog.html">Blog
-                                                Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="nav-item submenu dropdown">
-                                        <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown"
-                                           role="button" aria-haspopup="true"
-                                           aria-expanded="false">Pages</a>
-                                        <ul className="dropdown-menu">
-                                            <li className="nav-item"><a className="nav-link" href="login.html">Login</a>
-                                            </li>
-                                            <li className="nav-item"><a className="nav-link"
-                                                                        href="tracking.html">Tracking</a></li>
-                                            <li className="nav-item"><a className="nav-link"
-                                                                        href="elements.html">Elements</a></li>
-                                        </ul>
-                                    </li>
-                                    <li className="nav-item"><a className="nav-link" href="contact.html">Contact</a>
-                                    </li>
+                                {/*TODO Add here all the links to other pages*/}
+                                {/*Pages: Shop, MyAccount, Contact*/}
+
+
                                 </ul>
                                 <ul className="nav navbar-nav navbar-right">
-                                    <li className="nav-item"><a href="#" className="cart"><span
-    className="ti-bag"/></a></li>
+                                    <li className="nav-item"><a href="index.html" className="cart"><span className="ti-bag"/></a></li>
+                                    {/*TODO Add Cart Page and link it here*/}
                                     <li className="nav-item">
-                                        <button className="search"><span className="lnr lnr-magnifier"
-    id="search"/></button>
+                                        <button className="search"><span className="lnr lnr-magnifier" id="search"/></button>
                                     </li>
                                 </ul>
                             </div>
@@ -81,6 +41,7 @@ class Header extends Component{
                         <form className="d-flex justify-content-between">
                             <input type="text" className="form-control" id="search_input" placeholder="Search Here"/>
                                 <button type="submit" className="btn"/>
+                                {/*TODO on sumbit/click go to Shop And filter*/}
                                 <span className="lnr lnr-cross" id="close_search" title="Close Search"/>
                         </form>
                     </div>
