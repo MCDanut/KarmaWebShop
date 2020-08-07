@@ -17,14 +17,20 @@ public class ProductService {
     }
 
     public List<Product> getAll(){
-        return (List<Product>) productRepo.findAll();
+        List<Product> list = (List<Product>) productRepo.findAll();
+        list.forEach(Product::deserializeSpecification);
+        return list;
     }
 
-    public List<Product> getByCategory(Category category){
-        return productRepo.findAllByCategory(category);
+    public List<Product> getByCategory(Category category)
+    {
+        List<Product> list= productRepo.findAllByCategory(category);
+        list.forEach(Product::deserializeSpecification);
+        return list;
     }
 
     public void saveProduct(Product product){
+        product.serializeSpecification();
         productRepo.save(product);
     }
 
