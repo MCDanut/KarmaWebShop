@@ -39,7 +39,7 @@ class Footer extends Component{
                                                     className="fa fa-long-arrow-right" aria-hidden="true"></i></button>
                                                     <div style={{position: "absolute", left: "-5000px"}}>
                                                     <input name="b_36c4fd991d266f23781ded980_aefe40901a" //tabIndex="-1"
-                                                           value="" type="text"/>
+                                                            type="text"/>
                                                 </div>
 
                                         </div>
@@ -68,10 +68,10 @@ class Footer extends Component{
                                 <h6>Follow Us</h6>
                                 <p>Let us be social</p>
                                 <div className="footer-social d-flex align-items-center">
-                                    <a href="#"><i className="fa fa-facebook"/></a>
-                                    <a href="#"><i className="fa fa-twitter"/></a>
-                                    <a href="#"><i className="fa fa-dribbble"/></a>
-                                    <a href="#"><i className="fa fa-behance"/></a>
+                                    <a href="index.html"><i className="fa fa-facebook"/></a>
+                                    <a href="index.html"><i className="fa fa-twitter"/></a>
+                                    <a href="index.html"><i className="fa fa-dribbble"/></a>
+                                    <a href="index.html"><i className="fa fa-behance"/></a>
                                 </div>
                             </div>
                         </div>
@@ -82,7 +82,7 @@ class Footer extends Component{
                             <script>document.write(new Date().getFullYear());</script>
                             All rights reserved | This template is made with <i className="fa fa-heart-o"
     aria-hidden="true"/> by <a
-                                href="https://colorlib.com" target="_blank">Colorlib</a>
+                                href="https://colorlib.com" target="_blank" rel="noopener noreferrer">Colorlib</a>
                         </p>
                     </div>
                 </div>

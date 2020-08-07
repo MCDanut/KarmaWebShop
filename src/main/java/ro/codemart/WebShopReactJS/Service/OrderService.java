@@ -37,4 +37,11 @@ public class OrderService {
         orderRepo.save(orderKarma);
     }
 
+    public void deleteOrderById(Integer id){
+        OrderKarma orderKarma = orderRepo.findById(id).orElse(null);
+        for(OrderItem oi: orderKarma.getOrderItemSet()){
+            orderItemRepo.delete(oi);
+        }
+        orderRepo.delete(orderKarma);
+    }
 }

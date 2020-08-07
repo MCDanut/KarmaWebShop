@@ -1,14 +1,13 @@
 import React from 'react';
-import Header from "./components/header";
-import Banner from "./components/banner";
-import Footer from "./components/footer";
+import Layout from "./components/layout/layout";
+import UserTable from "./components/admin/userTable";
 
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Banner/>
-      <Footer/>
+      <Layout>
+          <UserTable/>
+      </Layout>
     </div>
   );
 }

@@ -21,6 +21,8 @@
   },
   "include": [
     "src",
-    "src/components/"
+    "src/components/",
+    "src/components/admin",
+    "src/components/layout"
   ]
 }

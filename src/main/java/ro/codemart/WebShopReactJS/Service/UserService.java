@@ -17,7 +17,7 @@ public class UserService {
         this.userRepo = userRepo;
     }
 
-    public List<UserKarma> getAllClients(){
+    public List<UserKarma> getAllUsers(){
         return userRepo.findAllByRole(UserRole.CLIENT);
     }
 

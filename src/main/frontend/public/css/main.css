@@ -380,16 +380,16 @@ h1, h2, h3, h4, h5, h6 {
   .progress-table .serial {
     width: 11.83%;
     padding-left: 30px; }
-  .progress-table .country {
+  .progress-table .fullName {
     width: 28.07%; }
-  .progress-table .visit {
-    width: 19.74%; }
+  .progress-table .email {
+    width: 40.36%; }
   .progress-table .percentage {
     width: 40.36%;
     padding-right: 50px; }
   .progress-table .table-head {
     display: flex; }
-    .progress-table .table-head .serial, .progress-table .table-head .country, .progress-table .table-head .visit, .progress-table .table-head .percentage {
+    .progress-table .table-head .serial, .progress-table .table-head .fullName, .progress-table .table-head .email, .progress-table .table-head .percentage, .progress-table .table-head .phoneNumber {
       color: #222222;
       line-height: 40px;
       text-transform: uppercase;
@@ -398,10 +398,10 @@ h1, h2, h3, h4, h5, h6 {
     padding: 15px 0;
     border-top: 1px solid #edf3fd;
     display: flex; }
-    .progress-table .table-row .serial, .progress-table .table-row .country, .progress-table .table-row .visit, .progress-table .table-row .percentage {
+    .progress-table .table-row .serial, .progress-table .table-row .fullName, .progress-table .table-row .email, .progress-table .table-row .percentage, .progress-table .table-row .phoneNumber {
       display: flex;
       align-items: center; }
-    .progress-table .table-row .country img {
+    .progress-table .table-row .fullName img {
       margin-right: 15px; }
     .progress-table .table-row .percentage .progress {
       width: 80%;
